@@ -1,0 +1,24 @@
+@startuml
+ 
+
+ 
+ title  <BMI calculator>  
+
+ 
+
+ start 
+
+ :bmi=weight/ (height*height);  
+ if(bmi=<18.5) 
+ :Under weight; 
+ elseif(18.5<bmi=<24.9) 
+ :nomarl weight; 
+ elseif(24.9<bmi=<29.9) 
+ :over weight; 
+ elseif(30>=bmi) 
+ :obesity; 
+ endif 
+ stop 
+ 
+ 
+@enduml 
