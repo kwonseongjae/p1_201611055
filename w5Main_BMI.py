@@ -19,3 +19,5 @@
 computeBMI()
 def main():
     computeBMI()
+
+wn.exitonclick()
