@@ -4,7 +4,7 @@
     weight=float(w1)
     height=float(h1)
     bheight=height/100.
-    Bmi=weight/(height*height)
+    Bmi=weight/(bheight*bheight)
     if(Bmi<18.5):
         print ("low weight")
     elif(18.5<=Bmi<25):

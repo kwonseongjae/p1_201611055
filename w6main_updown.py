@@ -5,7 +5,7 @@
     myName = input()
       
     number = random.randint(1,100)
-    print('well, '+ myName + ', You need to think of a number 1 and 100.')
+    print('well, '+ myName + ', I am thinking of a number 1 and 100.')
     while guessesTaken < 10:
         print ('Taken a guess')
         guess = input()

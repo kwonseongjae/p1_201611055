@@ -7,5 +7,5 @@ def makeSwirlsSquare(size,bigger,sides,angle):
             size=size+bigger
             t1.fd(size)
             t1.right(angle)
-makeSwirlsSquare(10,10,200,90)
+makeSwirlsSquare(10,10,30,90)
 wn.exitonclick()
